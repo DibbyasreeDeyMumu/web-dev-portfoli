@@ -38,6 +38,15 @@ nav ul{
     display: flex;
     align-items: center;
 }
+/* shared */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+/* main style */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .btn-primary{
     font-size: 20px;
     padding: 18px 35px;
@@ -79,4 +88,29 @@ nav ul{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-position: top left, bottom right;
     background-repeat: no-repeat;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+/* about style */
+.about{
+   text-align: center;
+   border-radius: 10px;
+   padding: 130px 150px;
+   margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
+    color: #181818;
+    font-size: 20px;
 }
