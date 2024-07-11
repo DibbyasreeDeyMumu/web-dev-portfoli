@@ -138,3 +138,28 @@ main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
+/* section resume */
+.section-resume-container{
+    display: flex;
+    gap: 30px;
+}
+.resume-title{
+    color: #474747;
+    font-size: 30px;
+}
+.experience-title{
+    font-size: 25px;
+    color: #474747;
+}
+.experience-subtitle{
+    font-size: 20px;
+    color: #757575;
+
+}
+.experience-des{
+    font-size: 16px;
+    color: #757575;
+}
+.resume-experience{
+    margin: 0px;
+}
